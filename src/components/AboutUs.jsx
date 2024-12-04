@@ -33,7 +33,7 @@ function AboutUs() {
           <div className="col-md-6">
             <img
               className="img-fluid shadow rounded"
-              src="../src/assets/chaplin-crazy.png"
+              src="/chaplin-crazy.png"
               alt="poster of Chaplin"
             />
           </div>

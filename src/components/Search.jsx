@@ -50,7 +50,7 @@ function Search() {
             <NavLink className="text-decoration-none text-black ms-auto" to="/">
               <img
                 className="img-fluid logo-image-search py-2"
-                src="../src/assets/logo-negro.png"
+                src="/logo-negro.png"
                 alt="logo de marca"
               />
             </NavLink>
