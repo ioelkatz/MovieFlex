@@ -12,7 +12,7 @@ function Header() {
             <Navbar.Brand href="/">
               <img
                 className="img-fluid logo-image"
-                src="../src/assets/logo-marca.png"
+                src="/logo-marca.png"
                 alt="logo de marca"
               />
             </Navbar.Brand>
