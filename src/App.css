@@ -1,0 +1,138 @@
+body {
+  background: rgb(0, 135, 222);
+  background: linear-gradient(
+    356deg,
+    rgba(0, 135, 222, 1) 4%,
+    rgba(0, 84, 139, 1) 19%,
+    rgba(0, 0, 0, 1) 67%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.star-design {
+  color: #ffd700;
+  font-size: 24px;
+}
+
+.img-styles {
+  object-fit: cover;
+  height: 550px;
+  filter: brightness(90%);
+  transition: all 0.5s ease-in-out;
+}
+
+.img-styles:hover {
+  filter: brightness(110%);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.image-back {
+  background-image: url("src/assets/chaplin-the-kid2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.my-text-shadow {
+  text-shadow: black 2px 1px;
+}
+
+.logo-image {
+  object-fit: cover;
+  width: 80px;
+  height: auto;
+}
+
+.logo-image-search {
+  object-fit: cover;
+  width: 70px;
+  height: auto;
+}
+
+.link-active {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link-inactive {
+  color: white;
+  text-decoration: none;
+}
+
+.modal-style .modal-content {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.image-modal {
+  transition: all 0.5s ease-in-out;
+}
+
+.image-modal:hover {
+  filter: brightness(120%);
+  transform: scale(1.05);
+}
+
+.title-error-style {
+  color: #e70000;
+  text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000,
+    -1px -1px 0 #000;
+  font-weight: bold;
+}
+
+.button-search {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.input-search {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.stars-style {
+  color: #ffc600;
+  text-shadow: black 1px 1px;
+}
+
+.button-paginacion-styles {
+  transition: all 0.3s ease-in-out;
+  background: black;
+}
+
+.button-paginacion-styles:hover {
+  font-weight: bold;
+}
+
+.button-paginacion-styles:active {
+  font-weight: bold;
+}
+
+.button-next-styles {
+  width: 110px;
+}
+
+@media (max-width: 992px) {
+  .paragraph-styles-description {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .paragraph-styles-description {
+    font-size: 14px !important;
+  }
+  .title-buscador {
+    font-size: 22px !important;
+  }
+}
