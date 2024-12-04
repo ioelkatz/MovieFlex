@@ -40,7 +40,7 @@ function Search() {
     <>
       <div className="bg-body-tertiary pb-4 shadow-sm">
         <div className="container">
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center div-title-search">
             <label
               htmlFor="movieName"
               className="text-black fw-bold text-start fs-2 pt-4 title-buscador"
@@ -76,9 +76,9 @@ function Search() {
       <div className="container mt-5 text-white">
         <div>
           {searchMovies === null ? (
-            <h5 className="text-light">
+            <p className="fs-5 fw-medium paragraph-search-styles text-light">
               No movies were found. Search again, please.
-            </h5>
+            </p>
           ) : (
             ""
           )}

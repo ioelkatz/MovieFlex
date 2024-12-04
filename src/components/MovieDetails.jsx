@@ -95,7 +95,10 @@ function MovieDetails() {
                     )}
                   </p>
                 </div>
-                <NavLink className="btn btn-success fw-bold w-100" to="/">
+                <NavLink
+                  className="btn btn-outline-light button-paginacion-styles fw-bold w-100"
+                  to="/"
+                >
                   Watch more movies...
                 </NavLink>
               </div>
