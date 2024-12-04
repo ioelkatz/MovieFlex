@@ -35,7 +35,7 @@ body {
 }
 
 .image-back {
-  background-image: url("src/assets/chaplin-the-kid2.png");
+  background-image: url("/chaplin-the-kid2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
